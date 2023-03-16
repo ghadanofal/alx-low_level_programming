@@ -5,16 +5,12 @@
  */
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float e;
 
-printf("size of char : %lu bytes\n", (unsigned long)sizeof(a));
-printf("size of int : %lu bytes\n", (unsigned long)sizeof(b));
-printf("size of long int : %lu bytes\n", (unsigned long)sizeof(c));
-printf("size of long long int : %lu bytes\n", (unsigned long)sizeof(d));
-printf("size of float : %lu bytes\n", (unsigned long)sizeof(e));
+printf("size of char : %d bytes\n", (unsigned long)sizeof(char));
+printf("size of int : %d bytes\n", (unsigned long)sizeof(int));
+printf("size of long int : %d bytes\n", (unsigned long)sizeof(long int));
+printf("size of long long int : %d bytes\n", (unsigned long)
+		sizeof(long long int));
+printf("size of float : %d bytes\n", (unsigned long)sizeof(float));
 return (0);
 }
